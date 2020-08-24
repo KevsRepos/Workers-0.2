@@ -1,0 +1,58 @@
+@page { size: auto;  margin: 0mm; }
+@media print {
+
+	header {
+		display: none;
+	}
+	body {
+		background-color: #FFFFFF;
+		position: relative;
+		margin: 25mm;
+		margin-top: 20mm;
+		height: 29.7cm;
+	}
+
+	main {
+		margin-top: 0mm;
+		width: auto;
+	}
+	nav, #anzeigeId, #settings {
+		display: none;
+	}
+	#druckLieferschein {
+		display: initial !important;
+		font-size: 12.5mm;
+	}
+	#name {
+		text-align: left;
+	}
+	#allDatas {
+		height: 24.7cm;
+	}
+	#allDatas:last {
+		display: initial;
+	}
+	#costumerQuote {
+		display: initial;
+	}
+	table{
+		border: none;
+		background-color: transparent;
+	}
+	td {
+		border-right: 0.1mm #000000 solid;
+		border-bottom: 0.1mm #000000 solid;
+	}
+	thead {
+		background-color: transparent;
+		border: 1px #666666 solid;
+	}
+	thead tr th {
+		text-align: left;
+	}
+
+	img {
+		display: block !important;
+		width: 50mm;
+	}
+}

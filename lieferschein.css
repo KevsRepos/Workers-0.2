@@ -1,0 +1,87 @@
+#warenInput, #warenAnzahl {
+	padding: 2px;
+	font-size: 150%;
+}
+#flaschen {
+	width: auto;
+}
+#warenSubmit {
+	margin-top: 20px;
+}
+#hiddenStatus {
+	display: none;
+}
+.lSDruck {
+	display: none;
+}
+#datum {
+	float: right;
+}
+#pfandberechnungen span {
+	float: right
+}
+label {
+	border-bottom: 3px #000000 solid !important;
+	padding: 15px;
+}
+img {
+	display: none;
+}
+td hr {
+	margin: 0px;
+}
+p {
+	text-align: center;
+}
+table * {
+	border-bottom: 1px #bfbfbf solid;
+}
+table {
+	background-color: rgba(119, 119, 119, 0.2);
+	width: 100%;
+	border: unset;
+}
+thead {
+	position: sticky;
+	top: 44px;
+	background-color: #c9c9c9;
+}
+td {
+	border-right: 1px #bfbfbf solid;
+	width: auto;
+}
+
+input {
+	padding: 0px;
+	border-radius: 0px;
+	border: none;
+	border-bottom: unset;
+	width: 100%;
+	background-color: transparent;
+	box-shadow: none;
+}
+input[type="submit"], textarea {
+	margin-top: 5px;
+	padding: var(--mainPadding);
+	background-color: transparent;
+	box-shadow: 5px 5px 50px #777777;
+	border: none;
+	width: 100vw;
+}
+.articleButtons {
+	background-color: #FFFFFF;
+	padding: var(--mainPadding);
+	margin: 5px;
+	border: 1px #000000 solid;
+}
+textarea {
+	margin-left: auto;
+	width: 80%;
+	resize: none;
+}
+@media screen and (max-width: 400px) {
+
+	table {
+		overflow-x: scroll;
+	}
+}

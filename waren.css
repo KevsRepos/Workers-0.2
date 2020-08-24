@@ -1,0 +1,25 @@
+.formLayers {
+	display: none;
+}
+#warenSubmit {
+	display: none;
+}
+#warenForm {
+	display: none;
+}
+.warenCont {
+	padding: var(--mainPadding);
+	background-color: #FFFFFF;
+	margin: 10px 5px 10px 5px;
+	box-shadow: 0px 0px 5px 3px #d8d8d8;
+	display: flex;
+	flex-direction: column;
+}
+span {
+	border-bottom: 1px #d8d8d8 solid;
+	padding: 5px;
+}
+.grayedWords {
+	color: #565656;
+	border-bottom: none;
+}

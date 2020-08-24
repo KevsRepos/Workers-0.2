@@ -1,0 +1,44 @@
+@page { size: auto;  margin: 0mm; }
+@media print {
+
+	header {
+		display: none;
+	}
+	body {
+		background-color: #FFFFFF;
+		position: relative;
+		margin: 4.59mm;
+		margin-top: 0mm;
+	}
+	main {
+		margin-top: 5mm;
+		position: absolute;
+		left: 0mm;
+		width: 100%;
+	}
+	main:before {
+		content: "Rückschreibzettel";
+		font-size: 100%;
+	}
+	nav, #anzeigeId, #settings {
+		display: none;
+	}
+	table{
+		border: none;
+		background-color: transparent;
+	}
+	td {
+		border: 1px #666666 solid;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	thead {
+		position: initial;
+	}
+	thead tr th {
+		text-align: left;
+	}
+	.lSDruck {
+		display: table-cell;
+	}
+}
