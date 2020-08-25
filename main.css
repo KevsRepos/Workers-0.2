@@ -1,0 +1,300 @@
+@import url(//db.onlinewebfonts.com/c/a984dd8fcc80eaa28209caf32d42d949?family=Falcon-Poster);
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap');
+:root {
+	--mainGreen: #003E18;
+	--sloganBlue: #0016c4;
+	--mainPadding: 10px;
+	--falconFont: "Falcon-Poster";
+	--mainFont: "Open Sans";
+	--navHeight: 120px;
+	--mobileHeaderHeight: 55px;
+	--mainRadius: 10px;
+	--mainBoxShadow: 5px 5px 30px #777777;
+}
+
+@font-face {
+	font-family: "Falcon-Poster"; src: url("//db.onlinewebfonts.com/t/a984dd8fcc80eaa28209caf32d42d949.eot"); 
+	src: url("//db.onlinewebfonts.com/t/a984dd8fcc80eaa28209caf32d42d949.eot?#iefix") format("embedded-opentype"), 
+	url("//db.onlinewebfonts.com/t/a984dd8fcc80eaa28209caf32d42d949.woff2") format("woff2"), 
+	url("//db.onlinewebfonts.com/t/a984dd8fcc80eaa28209caf32d42d949.woff") format("woff"), 
+	url("//db.onlinewebfonts.com/t/a984dd8fcc80eaa28209caf32d42d949.ttf") format("truetype"), 
+	url("//db.onlinewebfonts.com/t/a984dd8fcc80eaa28209caf32d42d949.svg#Falcon-Poster") format("svg"); 
+} 
+@font-face {
+  font-family: "color-emoji";
+  src: local("Apple Color Emoji"),
+       local("Segoe UI Emoji"), 
+       local("Segoe UI Symbol"),
+       local("Noto Color Emoji");
+}
+h2 {
+	position: relative;
+	top: 10px;
+	text-align: center;
+	background-color: #FFFFFF;
+	display: block;
+	padding: 5px;
+}
+hr {
+	color: #d8d8d8;
+	background-color: #d8d8d8;
+	border: 1px #d8d8d8 solid;
+	height: 1px;
+}
+#menuButton {
+	display: none;
+}
+.emoji {
+	font-size: 130%;
+	font-family: 'color-emoji';
+}
+.emoji:hover {
+	background-color: var(--mainGreen);
+	color: #ffffff;
+	text-decoration: none;
+}
+.stayRight {
+	float: right;
+}
+#refreshButton {
+	position: fixed;
+	top: 0px;
+	cursor: pointer;
+}
+.loadingScreen {
+	display: none;
+	height: 44px;
+	position: fixed;
+	right: 0px;
+}
+#reloadCircle {
+	display: initial;
+}
+#inBetween {
+	display: none;
+}
+#patternContainer {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+form {
+	text-align: center;
+}
+input {
+	width: 80%;
+}
+button, input[type="submit"]{
+	cursor: pointer;
+	color: #000000;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+input, textarea, select {
+	resize: none;
+	border: none;
+	margin: 10px auto 10px auto;
+	padding: var(--mainPadding);
+	box-shadow: 5px 5px 50px #777777;
+}
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	max-width: 80px;
+	padding: 0px;
+	box-shadow: none !important; 
+	margin: -12px 0px -12px 0px;
+	font-size: 130%;
+}
+select:hover {
+	cursor: pointer;
+}
+body {
+	margin: 0;
+	background-color: #F3F3F3;
+	font-family: var(--mainFont);
+}
+body a {
+	color: #000000;
+	text-decoration: none;
+}
+body a:hover {
+	text-decoration: underline;
+}
+
+header {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	background-color: #FFFFFF;
+	padding: var(--mainPadding);
+	font-family: var(--falconFont);
+	box-shadow: 3px 3px 3px #D8D8D8;
+	z-index: 10000;
+}
+
+header a {
+	padding: var(--mainPadding);
+	font-size: 150%;
+}
+header a:hover {
+	text-decoration: none;
+}
+header a #headerSpan1 {
+	padding: 3px 4px 3px 0px;
+	border: 3px var(--mainGreen) solid;
+}
+header a #headerSpan2 {
+	padding: 5px;
+	padding-left: 0px;
+	color: #FFFFFF;
+	background-color: var(--mainGreen);
+}
+
+main {
+	width: 50vw;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+nav {
+	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+	font-size: 125%;
+	border-bottom: 3px #D8D8D8 solid;
+}
+nav a, nav button, nav select {
+	padding: var(--mainPadding);
+	border: none;
+	background-color: transparent;
+}
+nav *:hover {
+	background-color: transparent !important;
+	color: #000000 !important;
+	border-bottom: 3px var(--mainGreen) solid !important;
+}
+nav button {
+	max-height: 2.1em;
+	appearance: a;
+	-webkit-appearance: a;
+	-moz-appearance: a;
+}
+.nav {
+	padding: 0px;
+}
+#loginFormCont {
+	text-align: center;
+}
+#settings {
+	width: 100%;
+	background-color: #FFFFFF;
+	border-bottom: 1px #000000 solid;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	font-size: 200%;
+	box-shadow: -3px -3px 3px #D8D8D8;
+}
+#settings span {
+	display: none;
+	font-size: 80%;
+}
+.programs {
+	display: grid;
+	height: 25vh;
+	padding: var(--mainPadding);
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 0 0 5px 2px #d8d8d8;
+    -moz-box-shadow: 0 0 5px 2px #d8d8d8;
+    box-shadow: 0 0 5px 2px #d8d8d8;
+	transition: 0.20s;
+}
+.programs:hover {
+	box-shadow: 5px 5px 30px #777777;
+}
+.programs:first-child {
+	margin-top: 50px;
+}
+.programs a p {
+	color: #777777;
+	font-size: 90%;
+}
+.programs a:hover {
+	color: #000000;
+	background-color: #FFFFFF !important;
+}
+.dataList {
+	display: flex;
+	flex-direction: column;
+}
+.dataList a {
+	padding: var(--mainPadding);
+	margin: 5px;
+	background-color: #FFFFFF;
+	transition: 0.10s ease-out;
+	-webkit-box-shadow: 0 0 5px 2px #d8d8d8;
+    -moz-box-shadow: 0 0 5px 2px #d8d8d8;
+    box-shadow: 0 0 5px 2px #d8d8d8;
+}
+.dataList a:hover {
+	box-shadow: var(--mainBoxShadow);
+	text-decoration: none;
+}
+footer {
+	background-color: #FFFFFF;
+	padding: var(--mainPadding);
+}
+#footerMidText {
+	text-align: center;
+}
+
+#allSettings {
+	display: flex;
+	flex-direction: column;
+	background-color: #FFFFFF;
+}
+#allSettings a {
+	text-decoration: none;
+	padding: var(--mainPadding);
+}
+#allSettings a:after {
+	content: " >";
+	float: right;
+}
+#allSettings a:hover {
+	background-color: var(--mainGreen);
+	color: #FFFFFF;
+}
+@media screen and (max-width: 1000px) {
+
+	[type="submit"] {
+		width: auto;
+	}
+	#menuButton {
+		display: inline;
+	}
+	main {
+		margin-top: 40px;
+		width: 100vw;
+	}
+	#settings {
+		display: inline;
+		width: 80vw;
+		height: 100vh;
+		top: 45px;
+		left: -80vw;
+		transition: 0.30s;
+	}
+	#settings a {
+		display: block;
+	}
+	#settings span {
+		display: initial;
+	}
+}
