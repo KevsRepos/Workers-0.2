@@ -14,7 +14,7 @@ You can write delivery notes and write back orders. You also have a overview of 
 
 I built this Web App during my time at my local Drinking Store. I used it to make my work more efficient.
 
-**Beschreibung/Was ist das?**
+***Beschreibung/Was ist das?***
 
 Das ist eine Web App, speziell für den Getränkehandel entwickelt. Sie hilft Getränkehändern ihre Arbeit zu digitalisieren.
 Man kann Lieferscheine schreiben und Bestellungen zurückschreiben. Desweiteren hat man eine Übersicht über alle Produkte und kann diese organisieren.
