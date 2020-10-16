@@ -10,7 +10,7 @@ Development has been stopped and a new version made with react is availabe: http
 ***Description/What is this?***
 
 This is a Web App especially build for the beverage market. It helps these Companys to digitalize the workflow.
-You can write delivery notes and write back orders. You also have a overview of all products to organize.
+You can write delivery notes and write back orders. You also have an overview of all products to organize.
 
 I built this Web App during my time at my local Drinking Store. I used it to make my work more efficient.
 
